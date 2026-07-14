@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:03,000
+Hook: Want healthy juice on the go?
+
+2
+00:00:03,000 --> 00:00:18,000
+Selling points: portable USB rechargeable blender
+
+3
+00:00:18,000 --> 00:00:23,000
+CTA: Tap cart to shop now!

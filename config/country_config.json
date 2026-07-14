@@ -1,0 +1,107 @@
+{
+  "US": {
+    "country_code": "US",
+    "name_cn": "美国",
+    "name_en": "United States",
+    "language_code": "en",
+    "language_name": "English",
+    "face_type": "european",
+    "platform_style": "tiktok_short",
+    "cultural_taboos": [
+      "avoid_exaggeration",
+      "highlight_eco",
+      "add_disclaimer_for_health"
+    ],
+    "hot_bgm_styles": [
+      "Pop",
+      "Hip-hop",
+      "Lo-fi",
+      "Trending TikTok Remix"
+    ],
+    "style_notes": "快节奏剪辑、高饱和画面、口语化字幕、强调个性与生活方式"
+  },
+  "VN": {
+    "country_code": "VN",
+    "name_cn": "越南",
+    "name_en": "Vietnam",
+    "language_code": "vi",
+    "language_name": "Vietnamese",
+    "face_type": "southeast_asian",
+    "platform_style": "tiktok_short",
+    "cultural_taboos": [
+      "remove_religious_sensitive",
+      "remove_political_sensitive",
+      "avoid_history_controversy"
+    ],
+    "hot_bgm_styles": [
+      "V-pop",
+      "Vietnamese Pop",
+      "Light Electronic"
+    ],
+    "style_notes": "亲切口语、性价比导向、东南亚面孔、本地生活场景"
+  },
+  "SA": {
+    "country_code": "SA",
+    "name_cn": "沙特阿拉伯",
+    "name_en": "Saudi Arabia",
+    "language_code": "ar",
+    "language_name": "Arabic",
+    "face_type": "middle_east",
+    "platform_style": "product_showcase",
+    "cultural_taboos": [
+      "hide_model_for_women_products",
+      "conservative_dress",
+      "remove_pork_alcohol",
+      "remove_religious_sensitive",
+      "add_ramadan_disclaimer",
+      "avoid_left_hand_etiquette"
+    ],
+    "hot_bgm_styles": [
+      "Khaliji",
+      "Arabic Light Music",
+      "Modern Arabic Pop"
+    ],
+    "style_notes": "保守着装、RTL 字幕、家庭与礼品导向、女性用品不露模特"
+  },
+  "GB": {
+    "country_code": "GB",
+    "name_cn": "英国",
+    "name_en": "United Kingdom",
+    "language_code": "en-GB",
+    "language_name": "British English",
+    "face_type": "european",
+    "platform_style": "tiktok_short",
+    "cultural_taboos": [
+      "avoid_exaggeration",
+      "highlight_eco",
+      "add_disclaimer_for_health",
+      "use_british_spelling"
+    ],
+    "hot_bgm_styles": [
+      "UK Garage",
+      "Indie Pop",
+      "Lo-fi"
+    ],
+    "style_notes": "英式拼写、含蓄表达、品质与环保导向、英式生活场景"
+  },
+  "ID": {
+    "country_code": "ID",
+    "name_cn": "印度尼西亚",
+    "name_en": "Indonesia",
+    "language_code": "id",
+    "language_name": "Bahasa Indonesia",
+    "face_type": "southeast_asian",
+    "platform_style": "tiktok_short",
+    "cultural_taboos": [
+      "remove_religious_sensitive",
+      "add_halal_note",
+      "remove_political_sensitive"
+    ],
+    "hot_bgm_styles": [
+      "Dangdut",
+      "Pop Indonesia",
+      "Light Electronic"
+    ],
+    "style_notes": "热带气候适配、大家庭场景、价格敏感、halal 认证友好"
+  }
+}

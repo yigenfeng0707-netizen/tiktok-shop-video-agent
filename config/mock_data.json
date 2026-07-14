@@ -1,0 +1,141 @@
+{
+  "description": "TikTok Shop 跨境短视频 Demo 模拟数据：5 个国家，每国 3 条，共 15 条",
+  "countries": ["US", "UK", "ID", "TH", "MY"],
+  "videos": [
+    {
+      "video_id": "US_001",
+      "product_name": "便携式榨汁机",
+      "country": "US",
+      "script_summary": "以早晨匆忙场景切入，展示 30 秒鲜榨果汁，强调便携与续航，结尾限时折扣促单",
+      "hook_type": "场景带入型",
+      "bgm_type": "节奏感强",
+      "publish_time": "2025-06-15T19:30:00"
+    },
+    {
+      "video_id": "US_002",
+      "product_name": "LED 化妆镜",
+      "country": "US",
+      "script_summary": "以补光痛点发问开场，对比普通镜子与 LED 镜效果，突出三档色温，结尾引导下单",
+      "hook_type": "痛点提问型",
+      "bgm_type": "热门流行",
+      "publish_time": "2025-06-16T20:15:00"
+    },
+    {
+      "video_id": "US_003",
+      "product_name": "宠物自动喂食器",
+      "country": "US",
+      "script_summary": "以出差宠物挨饿的反差冲突开场，演示定时定量喂食，强调 APP 远程控制，结尾促单",
+      "hook_type": "反差冲突型",
+      "bgm_type": "搞笑段子",
+      "publish_time": "2025-06-17T12:00:00"
+    },
+    {
+      "video_id": "UK_001",
+      "product_name": "家用扫地机器人",
+      "country": "UK",
+      "script_summary": "以销量 10 万+数据震撼开场，展示全屋清扫路径，强调静音与续航，结尾限时优惠",
+      "hook_type": "数据震撼型",
+      "bgm_type": "节奏感强",
+      "publish_time": "2025-06-15T18:45:00"
+    },
+    {
+      "video_id": "UK_002",
+      "product_name": "硅胶厨房收纳盒",
+      "country": "UK",
+      "script_summary": "以厨房杂乱痛点提问开场，展示折叠收纳过程，强调食品级材质，结尾引导下单",
+      "hook_type": "痛点提问型",
+      "bgm_type": "情感抒情",
+      "publish_time": "2025-06-16T07:30:00"
+    },
+    {
+      "video_id": "UK_003",
+      "product_name": "无线蓝牙耳机",
+      "country": "UK",
+      "script_summary": "以科技博主推荐的名人背书开场，展示降噪与续航，强调通话清晰，结尾促单",
+      "hook_type": "名人背书型",
+      "bgm_type": "热门流行",
+      "publish_time": "2025-06-17T21:00:00"
+    },
+    {
+      "video_id": "ID_001",
+      "product_name": "平价美妆套盒",
+      "country": "ID",
+      "script_summary": "以买一送三福利诱饵开场，展示全套上妆效果，强调平价好用，结尾限时秒杀",
+      "hook_type": "福利诱饵型",
+      "bgm_type": "热门流行",
+      "publish_time": "2025-06-15T19:00:00"
+    },
+    {
+      "video_id": "ID_002",
+      "product_name": "手机支架",
+      "country": "ID",
+      "script_summary": "以追剧场景带入开场，展示多角度调节与稳固性，强调折叠便携，结尾引导下单",
+      "hook_type": "场景带入型",
+      "bgm_type": "搞笑段子",
+      "publish_time": "2025-06-16T13:00:00"
+    },
+    {
+      "video_id": "ID_003",
+      "product_name": "迷你风扇",
+      "country": "ID",
+      "script_summary": "以炎热通勤痛点提问开场，展示三档风力与静音，强调随身便携，结尾促单",
+      "hook_type": "痛点提问型",
+      "bgm_type": "节奏感强",
+      "publish_time": "2025-06-17T08:00:00"
+    },
+    {
+      "video_id": "TH_001",
+      "product_name": "美白面膜",
+      "country": "TH",
+      "script_summary": "以泰国明星推荐的名人背书开场，展示 7 天美白效果，强调玻尿酸成分，结尾引导下单",
+      "hook_type": "名人背书型",
+      "bgm_type": "情感抒情",
+      "publish_time": "2025-06-15T20:30:00"
+    },
+    {
+      "video_id": "TH_002",
+      "product_name": "厨房刀具套装",
+      "country": "TH",
+      "script_summary": "以切不动食材的反差冲突开场，展示锋利切工与人体工学手柄，强调全套配备，结尾促单",
+      "hook_type": "反差冲突型",
+      "bgm_type": "节奏感强",
+      "publish_time": "2025-06-16T19:15:00"
+    },
+    {
+      "video_id": "TH_003",
+      "product_name": "婴儿湿巾",
+      "country": "TH",
+      "script_summary": "以买二送一福利诱饵开场，展示温和无刺激与加厚设计，强调 EDI 纯水，结尾限时优惠",
+      "hook_type": "福利诱饵型",
+      "bgm_type": "无BGM",
+      "publish_time": "2025-06-17T09:45:00"
+    },
+    {
+      "video_id": "MY_001",
+      "product_name": "智能手表",
+      "country": "MY",
+      "script_summary": "以 10 万销量数据震撼开场，展示心率血氧监测与运动模式，强调超长续航，结尾促单",
+      "hook_type": "数据震撼型",
+      "bgm_type": "节奏感强",
+      "publish_time": "2025-06-15T21:00:00"
+    },
+    {
+      "video_id": "MY_002",
+      "product_name": "车载手机支架",
+      "country": "MY",
+      "script_summary": "以开车看手机危险场景带入开场，展示重力感应与稳固吸盘，强调兼容多机型，结尾引导下单",
+      "hook_type": "场景带入型",
+      "bgm_type": "搞笑段子",
+      "publish_time": "2025-06-16T12:30:00"
+    },
+    {
+      "video_id": "MY_003",
+      "product_name": "蛋白粉",
+      "country": "MY",
+      "script_summary": "以健身达人推荐的名人背书开场，展示冲泡口感与蛋白质含量，强调低脂配方，结尾促单",
+      "hook_type": "名人背书型",
+      "bgm_type": "热门流行",
+      "publish_time": "2025-06-17T18:00:00"
+    }
+  ]
+}

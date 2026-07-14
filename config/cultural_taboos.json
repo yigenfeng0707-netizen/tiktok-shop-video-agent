@@ -1,0 +1,138 @@
+{
+  "regions": {
+    "middle_east": {
+      "name_cn": "中东地区",
+      "countries": ["SA"]
+    },
+    "europe_america": {
+      "name_cn": "欧美地区",
+      "countries": ["US", "GB"]
+    },
+    "southeast_asia": {
+      "name_cn": "东南亚地区",
+      "countries": ["VN", "ID"]
+    }
+  },
+  "rules": [
+    {
+      "id": "me_women_hide_model",
+      "region": "middle_east",
+      "countries": ["SA"],
+      "category": "women_products",
+      "rule": "中东地区女性用品（美妆/内衣/个护）不得出现真人模特，仅聚焦产品外观与功能演示",
+      "action": "hide_model"
+    },
+    {
+      "id": "me_women_focus_product",
+      "region": "middle_east",
+      "countries": ["SA"],
+      "category": "women_products",
+      "rule": "中东地区女性用品画面聚焦产品功能与使用效果，避免身体特写",
+      "action": "focus_product"
+    },
+    {
+      "id": "me_conservative_dress",
+      "region": "middle_east",
+      "countries": ["SA"],
+      "category": "*",
+      "rule": "中东地区所有品类模特须保守着装，不得出现暴露服饰",
+      "action": "conservative_dress"
+    },
+    {
+      "id": "me_no_pork_alcohol",
+      "region": "middle_east",
+      "countries": ["SA"],
+      "category": "*",
+      "rule": "中东地区不得出现猪肉、酒精、夜店、赌博、占卜等元素",
+      "action": "remove_sensitive_elements"
+    },
+    {
+      "id": "me_no_religious_symbol",
+      "region": "middle_east",
+      "countries": ["SA"],
+      "category": "*",
+      "rule": "中东地区不得出现十字架等非伊斯兰宗教符号，不贬低伊斯兰教",
+      "action": "remove_religious_sensitive"
+    },
+    {
+      "id": "me_ramadan_disclaimer",
+      "region": "middle_east",
+      "countries": ["SA"],
+      "category": "food",
+      "rule": "中东地区食品品类在斋月期间避免日间饮食场景，需添加斋月提示",
+      "action": "add_ramadan_disclaimer"
+    },
+    {
+      "id": "me_left_hand_etiquette",
+      "region": "middle_east",
+      "countries": ["SA"],
+      "category": "*",
+      "rule": "中东地区避免出现左手递物等文化失礼动作，模特使用右手",
+      "action": "add_etiquette_note"
+    },
+    {
+      "id": "ea_no_exaggeration",
+      "region": "europe_america",
+      "countries": ["US", "GB"],
+      "category": "*",
+      "rule": "欧美地区避免夸大宣传，不使用 best ever / miracle / 100% guaranteed 等绝对化用语",
+      "action": "remove_exaggeration"
+    },
+    {
+      "id": "ea_highlight_eco",
+      "region": "europe_america",
+      "countries": ["US", "GB"],
+      "category": "*",
+      "rule": "欧美地区主动突出环保卖点（eco-friendly / recyclable / sustainable）",
+      "action": "highlight_eco"
+    },
+    {
+      "id": "ea_health_disclaimer",
+      "region": "europe_america",
+      "countries": ["US", "GB"],
+      "category": "beauty",
+      "rule": "欧美地区个护/健康品类添加免责声明（结果因人而异 / not intended to diagnose）",
+      "action": "add_disclaimer"
+    },
+    {
+      "id": "ea_health_disclaimer_supplement",
+      "region": "europe_america",
+      "countries": ["US", "GB"],
+      "category": "health",
+      "rule": "欧美地区保健品/补剂类添加免责声明，不替代专业医疗建议",
+      "action": "add_disclaimer"
+    },
+    {
+      "id": "sea_no_religious_sensitive",
+      "region": "southeast_asia",
+      "countries": ["VN", "ID"],
+      "category": "*",
+      "rule": "东南亚地区不贬低佛教/伊斯兰教，避免宗教敏感元素",
+      "action": "remove_religious_sensitive"
+    },
+    {
+      "id": "sea_halal_note",
+      "region": "southeast_asia",
+      "countries": ["ID"],
+      "category": "food",
+      "rule": "印尼市场食品/日化品类优先标注 halal 清真认证信息",
+      "action": "add_halal_note"
+    },
+    {
+      "id": "sea_halal_note_cosmetics",
+      "region": "southeast_asia",
+      "countries": ["ID"],
+      "category": "beauty",
+      "rule": "印尼市场美妆个护建议标注 halal / 无酒精配方",
+      "action": "add_halal_note"
+    },
+    {
+      "id": "sea_no_political_sensitive",
+      "region": "southeast_asia",
+      "countries": ["VN", "ID"],
+      "category": "*",
+      "rule": "东南亚地区避免涉及历史争议与政治敏感元素",
+      "action": "remove_political_sensitive"
+    }
+  ]
+}

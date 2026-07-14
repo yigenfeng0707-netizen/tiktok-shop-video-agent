@@ -1,0 +1,194 @@
+{
+  "_comment": "各国热门 BGM 库，按国家+品类分类。file_path 为占位符，正式部署时替换为实际音频文件路径。",
+  "_copyright_notice": "版权说明：所有 BGM 仅可用于 TikTok 商业音乐库（TikTok Commercial Music Library）授权范围内或 royalty_free 素材。商用前须核验各曲目授权条款，避免侵权。沙特(SA)地区 BGM 需符合宗教文化规范，避免含酒精/赌博等敏感元素。",
+  "US": [
+    {
+      "bgm_id": "bgm_us_001",
+      "title": "Summer Vibes Pop",
+      "country": "US",
+      "category": "health",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/us/bgm_us_001.mp3",
+      "license": "royalty_free"
+    },
+    {
+      "bgm_id": "bgm_us_002",
+      "title": "Glow Up Beat",
+      "country": "US",
+      "category": "beauty",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/us/bgm_us_002.mp3",
+      "license": "tikTok_commercial_library"
+    },
+    {
+      "bgm_id": "bgm_us_003",
+      "title": "Kitchen Groove",
+      "country": "US",
+      "category": "food",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/us/bgm_us_003.mp3",
+      "license": "royalty_free"
+    },
+    {
+      "bgm_id": "bgm_us_004",
+      "title": "Tech Pulse EDM",
+      "country": "US",
+      "category": "electronics",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/us/bgm_us_004.mp3",
+      "license": "tikTok_commercial_library"
+    }
+  ],
+  "VN": [
+    {
+      "bgm_id": "bgm_vn_001",
+      "title": "Saigon Trending",
+      "country": "VN",
+      "category": "health",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/vn/bgm_vn_001.mp3",
+      "license": "tikTok_commercial_library"
+    },
+    {
+      "bgm_id": "bgm_vn_002",
+      "title": "Vpop Beauty Mix",
+      "country": "VN",
+      "category": "beauty",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/vn/bgm_vn_002.mp3",
+      "license": "royalty_free"
+    },
+    {
+      "bgm_id": "bgm_vn_003",
+      "title": "Hanoi Street Food",
+      "country": "VN",
+      "category": "food",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/vn/bgm_vn_003.mp3",
+      "license": "tikTok_commercial_library"
+    },
+    {
+      "bgm_id": "bgm_vn_004",
+      "title": "Saigon Tech Vibe",
+      "country": "VN",
+      "category": "electronics",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/vn/bgm_vn_004.mp3",
+      "license": "royalty_free"
+    }
+  ],
+  "SA": [
+    {
+      "bgm_id": "bgm_sa_001",
+      "title": "Desert Wellness",
+      "country": "SA",
+      "category": "health",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/sa/bgm_sa_001.mp3",
+      "license": "royalty_free"
+    },
+    {
+      "bgm_id": "bgm_sa_002",
+      "title": "Arabic Beauty Oud",
+      "country": "SA",
+      "category": "beauty",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/sa/bgm_sa_002.mp3",
+      "license": "tikTok_commercial_library"
+    },
+    {
+      "bgm_id": "bgm_sa_003",
+      "title": "Riyadh Food Fiesta",
+      "country": "SA",
+      "category": "food",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/sa/bgm_sa_003.mp3",
+      "license": "royalty_free"
+    },
+    {
+      "bgm_id": "bgm_sa_004",
+      "title": "Gulf Tech Arabic Pop",
+      "country": "SA",
+      "category": "electronics",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/sa/bgm_sa_004.mp3",
+      "license": "tikTok_commercial_library"
+    }
+  ],
+  "GB": [
+    {
+      "bgm_id": "bgm_gb_001",
+      "title": "London Indie Health",
+      "country": "GB",
+      "category": "health",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/gb/bgm_gb_001.mp3",
+      "license": "royalty_free"
+    },
+    {
+      "bgm_id": "bgm_gb_002",
+      "title": "Brit Beauty Pop",
+      "country": "GB",
+      "category": "beauty",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/gb/bgm_gb_002.mp3",
+      "license": "tikTok_commercial_library"
+    },
+    {
+      "bgm_id": "bgm_gb_003",
+      "title": "Cozy Kitchen Indie",
+      "country": "GB",
+      "category": "food",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/gb/bgm_gb_003.mp3",
+      "license": "royalty_free"
+    },
+    {
+      "bgm_id": "bgm_gb_004",
+      "title": "UK Tech Pop",
+      "country": "GB",
+      "category": "electronics",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/gb/bgm_gb_004.mp3",
+      "license": "tikTok_commercial_library"
+    }
+  ],
+  "ID": [
+    {
+      "bgm_id": "bgm_id_001",
+      "title": "Jakarta Dangdut Health",
+      "country": "ID",
+      "category": "health",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/id/bgm_id_001.mp3",
+      "license": "tikTok_commercial_library"
+    },
+    {
+      "bgm_id": "bgm_id_002",
+      "title": "Indo Beauty Pop",
+      "country": "ID",
+      "category": "beauty",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/id/bgm_id_002.mp3",
+      "license": "royalty_free"
+    },
+    {
+      "bgm_id": "bgm_id_003",
+      "title": "Street Food Dangdut",
+      "country": "ID",
+      "category": "food",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/id/bgm_id_003.mp3",
+      "license": "tikTok_commercial_library"
+    },
+    {
+      "bgm_id": "bgm_id_004",
+      "title": "Surabaya Tech Pop",
+      "country": "ID",
+      "category": "electronics",
+      "duration_seconds": 30,
+      "file_path": "assets/bgm/id/bgm_id_004.mp3",
+      "license": "royalty_free"
+    }
+  ]
+}

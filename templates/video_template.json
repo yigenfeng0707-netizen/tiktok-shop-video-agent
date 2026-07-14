@@ -1,0 +1,47 @@
+{
+  "template_name": "tiktok_shop_cross_border",
+  "description": "TikTok Shop 跨境带货短视频模板，总时长 35 秒，含片头/产品展示/卖点字幕/CTA/片尾五段结构",
+  "total_duration_seconds": 35,
+  "video_dimension": {
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16"
+  },
+  "segments": [
+    {
+      "name": "intro",
+      "label": "片头",
+      "duration": 3,
+      "slots": ["brand_logo"],
+      "description": "品牌 logo 淡入，建立品牌认知"
+    },
+    {
+      "name": "product_showcase",
+      "label": "产品展示",
+      "duration": 10,
+      "slots": ["raw_footage"],
+      "description": "产品实拍素材展示，多角度呈现外观与使用场景"
+    },
+    {
+      "name": "selling_points",
+      "label": "卖点字幕",
+      "duration": 15,
+      "slots": ["digital_human_voiceover"],
+      "description": "数字人口播核心卖点，叠加卖点字幕"
+    },
+    {
+      "name": "cta",
+      "label": "CTA",
+      "duration": 5,
+      "slots": ["purchase_guide"],
+      "description": "购买引导，限时优惠/点击购物车提示"
+    },
+    {
+      "name": "outro",
+      "label": "片尾",
+      "duration": 2,
+      "slots": ["brand_info"],
+      "description": "品牌信息与关注引导，淡出收尾"
+    }
+  ]
+}

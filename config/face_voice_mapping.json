@@ -1,0 +1,45 @@
+{
+  "_comment": "国家→面孔→语种映射表。digital_human_avatar_id 为预留字段，对接真实数字人 API（HeyGen/腾讯智影）时替换为实际 avatar_id。",
+  "_country_codes": {
+    "US": "美国",
+    "VN": "越南",
+    "SA": "沙特阿拉伯",
+    "GB": "英国",
+    "ID": "印度尼西亚"
+  },
+  "US": {
+    "face_type": "european",
+    "voice_language": "en-US",
+    "bgm_style": ["pop", "edm"],
+    "subtitle_language": "en-US",
+    "digital_human_avatar_id": "avatar_us_01"
+  },
+  "VN": {
+    "face_type": "southeast_asian",
+    "voice_language": "vi-VN",
+    "bgm_style": ["vpop", "trending"],
+    "subtitle_language": "vi-VN",
+    "digital_human_avatar_id": "avatar_vn_01"
+  },
+  "SA": {
+    "face_type": "middle_east",
+    "voice_language": "ar-SA",
+    "bgm_style": ["arabic_pop", "religious_friendly"],
+    "subtitle_language": "ar-SA",
+    "digital_human_avatar_id": "avatar_sa_01"
+  },
+  "GB": {
+    "face_type": "european",
+    "voice_language": "en-GB",
+    "bgm_style": ["pop", "indie"],
+    "subtitle_language": "en-GB",
+    "digital_human_avatar_id": "avatar_gb_01"
+  },
+  "ID": {
+    "face_type": "southeast_asian",
+    "voice_language": "id-ID",
+    "bgm_style": ["dangdut", "pop"],
+    "subtitle_language": "id-ID",
+    "digital_human_avatar_id": "avatar_id_01"
+  }
+}

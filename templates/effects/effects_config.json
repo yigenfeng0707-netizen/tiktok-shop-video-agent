@@ -1,0 +1,33 @@
+{
+  "_comment": "跨境带货特效库配置。ffmpeg_filter 为占位字符串，正式部署时根据贴纸素材与位置参数完善。坐标基于 1080x1920 竖版视频。",
+  "countdown": {
+    "name": "限时倒计时",
+    "type": "overlay_text",
+    "position": {
+      "x": 320,
+      "y": 80
+    },
+    "duration": 5,
+    "ffmpeg_filter": "drawtext=text='%{eif\\:5-t\\:d}':fontsize=72:fontcolor=red:borderw=2:bordercolor=white:x=320:y=80:enable='between(t,0,5)'"
+  },
+  "price_burst": {
+    "name": "价格爆炸框",
+    "type": "overlay_image",
+    "position": {
+      "x": 720,
+      "y": 1400
+    },
+    "duration": 4,
+    "ffmpeg_filter": "overlay=720:1400:enable='between(t,0,4)'"
+  },
+  "limited_time": {
+    "name": "限时抢购提示",
+    "type": "overlay_text",
+    "position": {
+      "x": 60,
+      "y": 1700
+    },
+    "duration": 6,
+    "ffmpeg_filter": "drawtext=text='Limited Time Offer!':fontsize=42:fontcolor=yellow:borderw=2:bordercolor=black:x=60:y=1700:enable='between(t,0,6)'"
+  }
+}
